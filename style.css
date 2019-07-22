@@ -1,0 +1,239 @@
+/* Navbar */
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  display: inline;
+	border-bottom: 2px solid #cccccc;
+	background-color: #3b3b3b;
+}
+
+.active {
+  background-color: #4aaaa5;
+}
+
+ul { /* Nav Titles - Adjust navbar */
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 12px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li { /* Nav Titles - Adjust nav list location */
+  float: right;
+  position: relative;
+  right: 5%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(29, 29, 29);
+}
+
+.navtitle { /* NamePlate - Adjust name */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 999;
+  top: 0px;
+  left: 8px;
+  position: absolute;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 25px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 30px;
+	width: auto;
+}
+
+.bodytxt { /* Right Body box - Adjust navbar */
+  top: 15%;
+  position: absolute;
+    text-align: center;
+    right: 100px;
+    margin-left: 60%;
+    margin-right: 5%;
+}
+
+.bodyimg1 {
+    display: inline-block;
+    position: relative;
+    right: 0%;
+    top: 10%;
+    transition: all .2s ease-in-out;
+}
+
+.bodyimg1:hover { 
+  transform: scale(1.05); 
+}
+
+.secondbody {
+    width: 100%;
+    float: left;
+    position: absolute;
+    left: 0%;
+    top: 80%;
+}
+
+.gallery {
+  margin-bottom: -4px;
+}
+
+.gallery, .gallery1, .gallery5 {
+  transition: all .2s ease-in-out;
+}
+
+.gallery:hover, .gallery1:hover, .gallery5:hover { 
+  transform: scale(1.05); 
+}
+
+.gallery1, .gallery5 {
+  position: relative;
+  left: 0%;
+  top: 80%;
+}
+
+.gallery5 {
+  left: 0px;
+  z-index: 999;
+}
+
+.whitebar {
+  z-index: 999;
+  top: 76%;
+  right: 0%;
+  position: absolute;
+  background-color: #ffffff;
+  height: 20px;
+  width: 100%;
+}
+
+.whitebar1 {
+  z-index: 999;
+  top: 102%;
+  right: 0%;
+  position: absolute;
+  background-color: #ffffff;
+  height: 20px;
+  width: 100%;
+}
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 23%;
+  margin-right: 5%;
+  background-color: lightgrey;
+}
+
+.sidebar {
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 2px solid #d4d4d4;
+  border-width: 2px;
+  display: inline;
+  border-color: #ffffff;
+  text-align: center;
+  background-color: #333;
+  width: 17.5%;
+  height: 59%;
+  position: absolute;
+  top: 14.5%;
+  background-color: lightgrey;
+}
+
+.sidehr {
+  margin-left: 20%;
+  margin-right: 20%;
+  border-color: rgb(173, 173, 173);
+  border: none;
+  background-color: rgb(173, 173, 173);
+  color: rgb(173, 173, 173);
+}
+
+.sidetext {
+  height: 15px;
+}
+
+hr {
+border-color: #333;
+height: 1px;
+background-color: #333;
+color: #333;
+}
+
+.mytitle {
+  text-align: center;
+  font-size: 30px;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+
+
+.contacttitle {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.co-container {
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+      height: 60px;
+      line-height: 60px;
+      background-color: #333;
+      z-index: 1000;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+  }
